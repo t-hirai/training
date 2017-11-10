@@ -1,0 +1,36 @@
+body{
+  font-family:"Avenir Next"
+
+}
+
+.section_title{
+  border-bottom:2px solid #dee7ec;
+  font-size:30px;
+  padding-bottom:10px;
+  margin-bottom:40px;
+}
+
+.section_content{
+  width:400px;
+  font-size:18px;
+  margin-bottom:20px;
+  padding:10px;
+  border-bottom:2px dotted #dee7ec;
+}
+
+.name,.sex,.mail,.content{
+  width:400px;
+  font-size:18px;
+  margin-bottom:20px;
+  padding:10px;
+}
+
+.close{
+  background-color:#22a8b3;
+  color:#fff;
+  margin-left:15px;
+  width:100px;
+  padding:10px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}

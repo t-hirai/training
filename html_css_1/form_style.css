@@ -1,0 +1,65 @@
+body{
+  font-family:"Avenir Next"
+}
+
+.contact_form{
+}
+
+.section_title{
+  border-bottom:2px solid #dee7ec;
+  font-size:30px;
+  padding-bottom:10px;
+  margin-bottom:40px;
+}
+
+span{
+  color:red;
+}
+
+.contact_name{
+  width:400px;
+  font-size:18px;
+  margin-bottom:20px;
+  padding:10px;
+  border:1px solid #dee7ec;
+}
+
+.contact_sex{
+  margin-bottom:20px;
+}
+
+.contact_mail{
+  width:400px;
+  font-size:18px;
+  margin-bottom:20px;
+  padding:10px;
+  border:1px solid #dee7ec;
+}
+
+.contact_content{
+  width:400px;
+  font-size:18px;
+  margin-bottom:20px;
+  padding:10px;
+  border:1px solid #dee7ec;
+}
+
+.contact_submit{
+  background-color:#22a8b3;
+  color:#fff;
+  margin-left:15px;
+  width:80px;
+  padding:10px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact_reset{
+  background-color:#22a8b3;
+  color:#fff;
+  margin-left:15px;
+  width:100px;
+  padding:10px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}

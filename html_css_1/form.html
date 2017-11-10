@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>お問い合わせフォームのテスト</title>
+    <link rel="stylesheet" href="form_style.css"/>
+    <script type="text/javascript" language="javascript">
+      function onButtonClick() {
+        name = document.forms.id_form.name.value;
+        sex = document.forms.id_form.sex.value;
+        mail = document.forms.id_form.mail.value;
+        content = document.forms.id_form.content.value;
+        window.open("result.html?"+name+"&"+sex+"&"+mail+"&"+content);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+        <form class="contact_form" id="id_form" method="post">
+          <h1 class="section_title">お問い合わせ</h1>
+          <p>名前</p>
+          <input class="contact_name" id="name"/>
+          <p>性別</p>
+          <input class="contact_sex" id="sex" type="radio" name="sex" value="male">男
+          &emsp;
+          <input class="contact_sex" id="sex" type="radio" name="sex" value="female">女
+          <p>メールアドレス<span>（必須）</span></p>
+          <input class="contact_mail" id="mail"/>
+          <p>お問い合わせ内容<span>（必須）</span></p>
+          <textarea class="contact_content" id="content"></textarea>
+          <p><span>※必須項目は必ずご入力ください</span></p>
+          <input class="contact_submit" type="button" onclick="onButtonClick();" value="送信"/>
+          <input class="contact_reset" type="reset" value="リセット"/>
+        </form>
+    </div>
+  </body>
+</html>

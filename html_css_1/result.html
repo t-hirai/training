@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>ゆったりjavascript</title>
+    <link rel="stylesheet" href="result_style.css"/>
+    <script language="JavaScript">
+      str = location.search;
+      str = str.substring(1,str.length);
+      str = str.split("&");
+    </script>
+  </head>
+  <body>
+    <h1 class="section_title">お問い合わせ完了</h1>
+    <h2 class="section_content">以下の内容でお問い合わせが完了しました。</h2>
+    <div class="name">
+      <b>名前</b>
+      <br/>
+      <script language="JavaScript">
+        document.write(decodeURI(str[0]));
+      </script>
+    </div>
+    <div class="sex">
+      <b>性別</b>
+      <br/>
+      <script language="JavaScript">
+        if(decodeURI(str[1]) == "male"){
+          document.write("男性");
+        }
+        else if(decodeURI(str[1]) == "female"){
+          document.write("女性");
+        }
+        else{
+
+        }
+      </script>
+    </div>
+    <div class="mail">
+      <b>メールアドレス</b>
+      <br/>
+      <script language="JavaScript">
+        document.write(decodeURI(str[2]));
+      </script>
+    </div>
+    <div class="content">
+      <b>お問い合わせ内容</b>
+      <br/>
+      <script language="JavaScript">
+        document.write(decodeURI(str[3]));
+      </script>
+    </div>
+    <form>
+      <input class="close" type="button" value="閉じる" onclick="window.close();">
+    </form>
+  </body>
+</html>
