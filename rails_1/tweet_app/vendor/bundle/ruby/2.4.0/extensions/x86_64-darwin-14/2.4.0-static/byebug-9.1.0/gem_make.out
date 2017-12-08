@@ -1,0 +1,19 @@
+current directory: /Users/hiraitakuya/Desktop/work/rails/tweet_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+/Users/hiraitakuya/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20171201-33798-1lkt585.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hiraitakuya/Desktop/work/rails/tweet_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/hiraitakuya/Desktop/work/rails/tweet_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/hiraitakuya/Desktop/work/rails/tweet_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20171201-33798-vt6j85/byebug
